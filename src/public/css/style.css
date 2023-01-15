@@ -33,3 +33,16 @@ border: 5px solid green;
 img {
     width: 100%;
 }
+.create-user-container {
+    text-align: center;
+}
+
+.create-user-container label{
+    display: block;
+    text-align: center;
+}
+
+.create-user-container .btn-submit{
+    margin-top: 15px;
+    cursor: pointer;
+}
