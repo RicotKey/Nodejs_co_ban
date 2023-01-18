@@ -46,3 +46,15 @@ img {
     margin-top: 15px;
     cursor: pointer;
 }
+.edit-user-container{
+    text-align: center;
+}
+.edit-user-container label{
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+}
+.edit-user-container .btn-save{
+    margin-top: 15px;
+    cursor: pointer;
+}

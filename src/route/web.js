@@ -7,9 +7,11 @@ const initWebRoute = (app) => {
     router.get('/', homeController.getHomepage)
     router.get('/detail/user/:id', homeController.getDetailpage)
     router.post('/create-new-user', homeController.createNewUser)
-    router.get('/about', (req, res) => {
-        res.render(`I'm Key!`)
-    })
+    router.post('/delete_user', homeController.deleteUser)
+    router.get('/edit_user/:id', homeController.editUser)
+    router.post('/update_user',homeController.updateUser)
+
+    router.get('/about', homeController.aboutPage)
 
     return app.use('/', router)
 }
